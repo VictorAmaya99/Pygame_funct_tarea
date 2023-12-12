@@ -1,0 +1,29 @@
+
+
+    #circle = pygame.draw.circle(screen, GREEN, (400,300), 80)
+    #rectangle = pygame.draw.rect(screen, GREEN, (300, 250, 200, 100))    
+    #square = pygame.draw.rect(screen, GREEN, (300, 200, 200, 200))
+    #polygono = pygame.draw.polygon(screen, BLUE, [(300, 200), (500,400), (300,400)])
+
+def draw_figures(lista=list, type=str, surface=0):   
+    for fig in lista:              
+        type = fig["type"] 
+        match type:
+            case "circle":
+                fig["drawing"](surface, fig["color"], fig["position"], fig["radius"])                
+            
+            case "rectangle":
+                fig["drawing"](surface, fig["color"], fig["position"]) 
+           
+            case "square":
+                fig["drawing"](surface, fig["color"], fig["position"])
+           
+            case "polygon":
+                fig["drawing"](surface, fig["color"], fig["position"])
+           
+            case _:
+                print("No valido")
+        return type
+                
+                     
+        

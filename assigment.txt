@@ -1,0 +1,19 @@
+
+Diccionarios
+Los datos de una figura deberán estar representados en un diccionario, en el mismo se
+especificará: tipo de figura geométrica, dimensiones, posición inicial y el color de la figura.
+
+Funciones
+
+Crear funciones para:
+● Calcular perímetro y área (tener en cuenta que las fórmulas son distintas para cada
+figura)
+● Dibujar la figura en la ventana
+● Escribir los resultados en pantalla.
+● Gestionar el cálculo de área, perímetro y gráfica de la figura. Se sugiere que la
+misma reciba como mínimo una superficie que representa la ventana y un
+diccionario que represente la figura.
+Todas las funciones deberán estar organizadas en módulos según su responsabilidad.
+Recuerden los objetivos del trabajo con funciones.
+Pygame
+Utilizar todos los conceptos vistos en clases hasta el momento.x
